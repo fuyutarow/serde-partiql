@@ -1,12 +1,10 @@
 [package]
-name = "serde_json"
-version = "1.0.64" # remember to update html_root_url
-authors = ["Erick Tryzelaar <erick.tryzelaar@gmail.com>", "David Tolnay <dtolnay@gmail.com>"]
-license = "MIT OR Apache-2.0"
-description = "A JSON serialization file format"
+name = "serde_partiql"
+version = "1.0.64+202105"
+description = "A PartiQL data model serialization file format"
 repository = "https://github.com/serde-rs/json"
 documentation = "https://docs.serde.rs/serde_json/"
-keywords = ["json", "serde", "serialization"]
+keywords = ["serde", "serialization"]
 categories = ["encoding"]
 readme = "README.md"
 include = ["build.rs", "src/**/*.rs", "README.md", "LICENSE-APACHE", "LICENSE-MIT"]
