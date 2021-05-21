@@ -1,5 +1,5 @@
 [package]
-name = "serde_json_test"
+name = "serde_partiql_test"
 version = "0.0.0"
 edition = "2018"
 publish = false
@@ -8,13 +8,13 @@ publish = false
 path = "test.rs"
 
 [dependencies]
-serde_json = { path = "../..", default-features = false }
+serde_partiql = { path = "../..", default-features = false }
 
 [features]
 default = ["std"]
-std = ["serde_json/std"]
-alloc = ["serde_json/alloc"]
-preserve_order = ["serde_json/preserve_order"]
-arbitrary_precision = ["serde_json/arbitrary_precision"]
-raw_value = ["serde_json/raw_value"]
-unbounded_depth = ["serde_json/unbounded_depth"]
+std = ["serde_partiql/std"]
+alloc = ["serde_partiql/alloc"]
+preserve_order = ["serde_partiql/preserve_order"]
+arbitrary_precision = ["serde_partiql/arbitrary_precision"]
+raw_value = ["serde_partiql/raw_value"]
+unbounded_depth = ["serde_partiql/unbounded_depth"]

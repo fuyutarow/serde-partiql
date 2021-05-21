@@ -1,0 +1,4 @@
+[tasks.sed]
+script = '''
+rg serde_json -l | xargs sd "serde_json" "serde_partiql"
+'''
