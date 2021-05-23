@@ -1,12 +1,13 @@
 [package]
 name = "serde_partiql"
-version = "1.0.64+202105"
+version = "1.0.64+20210523"
 description = "A PartiQL data model serialization file format"
 keywords = ["serde", "serialization"]
 categories = ["encoding"]
 readme = "README.md"
 include = ["build.rs", "src/**/*.rs", "README.md", "LICENSE-APACHE", "LICENSE-MIT"]
 edition = "2018"
+license = "MIT"
 
 [dependencies]
 serde = { version = "1.0.100", default-features = false }
