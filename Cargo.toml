@@ -1,6 +1,6 @@
 [package]
 name = "serde_partiql"
-version = "1.0.64+20210523"
+version = "1.1.64"
 description = "A PartiQL data model serialization file format"
 keywords = ["serde", "serialization"]
 categories = ["encoding"]
